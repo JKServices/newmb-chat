@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer(){ return <footer className="mx-auto mt-12 max-w-5xl border-t border-white/10 px-4 py-8 text-sm text-white/50"><div className="flex flex-wrap gap-4"><Link href="/memes">밈 모음</Link><Link href="/disclaimer">고지사항</Link><Link href="/privacy">개인정보처리방침</Link><Link href="/terms">이용약관</Link></div><p className="mt-4">NEWMB.chat은 비공식 패러디 서비스입니다. 실제 인물·단체의 공식 입장이 아닙니다.</p></footer> }
